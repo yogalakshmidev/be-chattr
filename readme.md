@@ -19,9 +19,9 @@ It is the social media application that allows us to create post, and share them
 1.Database Setup:
 
   -- Install MongoDB community server incase if it is local  
-      https://www.mongodb.com/try/download/community
-  -- Install MongoDB Compass
-           https://www.mongodb.com/try/download/compass 
+      https://www.mongodb.com/try/download/community              
+  -- Install MongoDB Compass                  
+           https://www.mongodb.com/try/download/compass                    
   --Create a new database called Chatter.   
   --Create a new collection called Users.   
   --Create a new collection called Post.    
@@ -41,7 +41,9 @@ It is the social media application that allows us to create post, and share them
   
   To initialize package.json:
   ```bash
-npm init -y or npm init    
+npm init -y or npm init         
+````````````
+
 
 --Install the following dependencies
     -Express
@@ -55,14 +57,16 @@ npm init -y or npm init
     -multer(used for file uploading ref: class 41)
 
     ```bash
-    npm install express mongoose cors dotenv nodemon morgon jsonwebtoken bcrypt multer
+    npm install express mongoose cors dotenv nodemon morgon jsonwebtoken bcrypt multer    
+    `````````````
 
 -- create a new file called .env and add the following environment variables
 
 ```bash
 PORT=3001
 MONGODB_URI = mongodb://localhost:2702/chattr
-JWT_SECRET = secret
+JWT_SECRET = secret             
+```````````````
 
 -- create a new file called server.js
    - Database connection setup
@@ -84,7 +88,8 @@ JWT_SECRET = secret
   -- Initialize the new react project
 
   ```bash
-  npm create vite@latest fe-chattr    
+  npm create vite@latest fe-chattr              
+  ````````   
 
   -- Install the following dependcies:     
        
