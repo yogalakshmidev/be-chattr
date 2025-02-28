@@ -57,7 +57,9 @@ npm init -y or npm init
     -multer(used for file uploading ref: class 41)
 
     ```bash
-    npm install express mongoose cors dotenv nodemon morgon jsonwebtoken bcrypt multer    
+    npm install express mongoose cors dotenv  jsonwebtoken bcrypt multer    
+
+    npm install  nodemon morgan --save-dev
     `````````````
 
 -- create a new file called .env and add the following environment variables
