@@ -57,7 +57,7 @@ npm init -y or npm init
     -multer(used for file uploading ref: class 41)
 
     ```bash
-    npm install express mongoose cors dotenv  jsonwebtoken bcrypt multer    
+    npm install express mongoose cors dotenv  jsonwebtoken bcrypt cookie-parser multer    
 
     npm install  nodemon morgan --save-dev
     `````````````
@@ -72,7 +72,14 @@ JWT_SECRET = secret
 
 -- create a new file called server.js
    - Database connection setup
+   - Create a new file called app.js
    -Express connection setup
+
+    -Install postman for testing API from                                        
+
+    https://www.postman.com/downloads/                
+    
+
    -Middleware setup-cors,express,json,authentication,morgon
    -Routes setup
    -Controller setup
