@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 // parse the cookies
-app.use(cookieParser);
+app.use(cookieParser());
 
 // Middleware
 app.use(logger);
